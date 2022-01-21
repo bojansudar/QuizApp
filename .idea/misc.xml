@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/drawable/background_quizz.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/drawable/round_corner_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_quiz6.xml" value="0.18" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_quiz7.xml" value="0.1" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_quiz8.xml" value="0.1" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_razred.xml" value="0.306803594351733" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_razred6.xml" value="0.21" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_razred7.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_razred8.xml" value="0.2" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_razred9.xml" value="0.18" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_rezultati.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/Bojo/AndroidStudioProjects/Kviz_Pokusaj1/app/src/main/res/layout/activity_start.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

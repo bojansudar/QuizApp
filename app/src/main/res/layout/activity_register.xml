@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/firstnameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_person_24registeractivity"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Unesite Vaše ime"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/lastnameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_person_24registeractivity"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Unesite Vaše prezime"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Unesite Vaš email"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_login_24registeractivity"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Unesite  Vašu lozinku"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passwordConfirmTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_login_24registeractivity"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Potvrdite Vašu lozinku"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/RegisterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Registrirajte se" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

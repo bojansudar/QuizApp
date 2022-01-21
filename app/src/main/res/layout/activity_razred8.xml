@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Razred8Activity">
+
+
+    <TextView
+        android:id="@+id/razred8Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Gradivo koje obuhvaća test"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/programiranjeLogo2Txt"
+        android:layout_below="@+id/razred8Txt"
+        android:padding="20dp"
+        android:text="1. Programiranje - Logo"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proracunskeTabliceTxt"
+        android:layout_below="@+id/programiranjeLogo2Txt"
+        android:padding="20dp"
+        android:text="2. Proračunske tablice"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startBtn8"
+        android:layout_below="@+id/proracunskeTabliceTxt"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Start"
+        android:textSize="30dp"
+        android:background="@drawable/round_corner_button"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RazredActivity">
+
+
+    <TextView
+        android:id="@+id/odaberiRazred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Odaberite razred"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="normal"
+
+        />
+
+    <Button
+        android:id="@+id/odjavaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/odaberiRazred"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/round_corner_button"
+        android:padding="10dp"
+        android:text="Odjava"
+        android:textColor="@color/design_default_color_background" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/razred6Btn"
+        android:layout_below="@+id/odaberiRazred"
+        android:layout_marginLeft="20dp"
+        android:text="6 razred"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/round_corner_button"
+
+        />
+
+    <Button
+        android:id="@+id/razred7Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/odaberiRazred"
+        android:layout_alignRight="@+id/odaberiRazred"
+        android:background="@drawable/round_corner_button"
+        android:padding="10dp"
+        android:text="7 razred" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/razred8Btn"
+        android:text="8 razred"
+        android:layout_below="@+id/razred6Btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_corner_button"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/razred9Btn"
+        android:text="9 razred"
+        android:layout_below="@+id/razred7Btn"
+        android:layout_alignRight="@+id/odaberiRazred"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:background="@drawable/round_corner_button"/>
+</RelativeLayout>
